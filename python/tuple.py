@@ -1,0 +1,11 @@
+x=(12,'red',34,78)
+print(x)
+print(type(x))
+print(len(x))
+a=list(x)
+
+print(a)
+a.append(3)
+print(a)
+a.extend([4,7,8])
+print(a)

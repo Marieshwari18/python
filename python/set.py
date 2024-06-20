@@ -1,0 +1,25 @@
+s={4,7,9,8,10,56}
+print(s)
+print("type of s    ",type(s))
+s.add(6)
+print(" to add one element   ",s)
+s.update([90,14])
+print(" to add mutiple element  ",s)         
+s.discard(9)
+print("to remove element using dicard key  ",s)
+s.discard(25)
+print(s)
+s.pop()
+print("pop is used to randamely remove value   ",s)
+s.remove(8)
+print("remove is used to remove an element from set  ",s)
+
+s1={1,3,5,7,0,8,10}
+s2={2,16}
+print( "sub set   ",s2.issubset(s1))
+print("superset  ",s1.issuperset(s2))
+print('disjoint   ',s1.isdisjoint(s2))
+s3=frozenset(s1)
+print(s3)
+s3.add(67)
+print(s3)
